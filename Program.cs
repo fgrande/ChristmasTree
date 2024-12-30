@@ -1,4 +1,6 @@
-﻿DrawTree(15);
+﻿Console.Write("Indica la profondità dell'albero: ");
+int depth = Convert.ToInt32(Console.ReadLine());
+DrawTree(depth);
 
 
 static void DrawTree(int depth)
